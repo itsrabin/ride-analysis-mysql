@@ -1,3 +1,4 @@
+--created database ride_share
 create database ride_share;
 
 USE ride_share;
@@ -9,6 +10,7 @@ LIMIT 20;
 SELECT COUNT(*) 
 FROM ride_sharing_data;
 
+-- Counting the total number of rides that were, completed, canceled and those whose data doesn't show.
 SELECT
     Ride_Status,
     COUNT(*) AS Number_of_Trips
